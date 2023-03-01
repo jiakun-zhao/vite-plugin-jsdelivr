@@ -1,0 +1,43 @@
+{
+    "name": "vite-plugin-jsdelivr",
+    "version": "0.0.1",
+    "description": "",
+    "homepage": "https://github.com/jiakun-zhao/vite-plugin-jsdelivr#readme",
+    "bugs": {
+        "url": "https://github.com/jiakun-zhao/vite-plugin-jsdelivr/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jiakun-zhao/vite-plugin-jsdelivr.git"
+    },
+    "license": "MIT",
+    "author": "Jiakun Zhao <jiakun.zhao@outlook.com>",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "unbuild"
+    },
+    "eslintConfig": {
+        "extends": "@jiakun-zhao"
+    },
+    "devDependencies": {
+        "@jiakun-zhao/eslint-config": "^0.0.4",
+        "@types/node": "^18.14.2",
+        "eslint": "^8.35.0",
+        "esno": "^0.16.3",
+        "typescript": "^4.9.5",
+        "unbuild": "^1.1.2"
+    }
+}
