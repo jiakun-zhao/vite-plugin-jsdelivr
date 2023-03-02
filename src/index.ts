@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs'
 import externalGlobals from 'rollup-plugin-external-globals'
 import type { Plugin } from 'vite'
 import type { Options } from './types'
-import autoComplete from './auto'
+import autoComplete from './auto-complete'
 
 const JSDELIVR_CDN_URL = 'https://cdn.jsdelivr.net/npm'
 

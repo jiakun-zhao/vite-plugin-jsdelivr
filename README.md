@@ -24,4 +24,4 @@ export default defineConfig({
 
 #### OPTIONS
 
-[See `types`](./src/types.d.ts) (Welcome PR for [auto complete](./src/auto.ts))
+[See `types`](./src/types.ts) (Welcome PR for [auto complete](./src/auto-complete.ts))
