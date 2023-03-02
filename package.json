@@ -1,7 +1,7 @@
 {
     "name": "vite-plugin-jsdelivr",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.2",
+    "description": "Import modules from JsDelivr with vite plugin.",
     "homepage": "https://github.com/jiakun-zhao/vite-plugin-jsdelivr#readme",
     "bugs": {
         "url": "https://github.com/jiakun-zhao/vite-plugin-jsdelivr/issues"
@@ -27,17 +27,25 @@
         "dist"
     ],
     "scripts": {
-        "build": "unbuild"
+        "build": "unbuild",
+        "dev": "unbuild --stub"
     },
     "eslintConfig": {
         "extends": "@jiakun-zhao"
     },
+    "dependencies": {
+        "rollup-plugin-external-globals": "^0.7.1"
+    },
     "devDependencies": {
         "@jiakun-zhao/eslint-config": "^0.0.4",
-        "@types/node": "^18.14.2",
+        "@types/html-minifier": "^4.0.2",
+        "@types/node": "^18.14.4",
         "eslint": "^8.35.0",
-        "esno": "^0.16.3",
         "typescript": "^4.9.5",
-        "unbuild": "^1.1.2"
+        "unbuild": "^1.1.2",
+        "vite": "^4.1.4"
+    },
+    "peerDependencies": {
+        "vite": "^4.1.4"
     }
 }
