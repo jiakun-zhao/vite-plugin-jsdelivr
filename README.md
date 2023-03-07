@@ -1,6 +1,6 @@
 # vite-plugin-jsdelivr
 
-Import modules from JsDelivr with vite plugin.
+A Vite plugin to use jsDelivr as CDN.
 
 #### INSTALL
 

@@ -1,7 +1,7 @@
 {
     "name": "vite-plugin-jsdelivr",
-    "version": "0.0.3",
-    "description": "Import modules from JsDelivr with vite plugin.",
+    "version": "0.0.4",
+    "description": "A Vite plugin to use jsDelivr as CDN.",
     "homepage": "https://github.com/jiakun-zhao/vite-plugin-jsdelivr#readme",
     "bugs": {
         "url": "https://github.com/jiakun-zhao/vite-plugin-jsdelivr/issues"
